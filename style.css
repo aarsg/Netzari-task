@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+}
+#main>.logos{
+    height: 100%;
+    width: 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+#main>.text{
+    height: 90px;
+    width: 150px;
+    /* background-color: aquamarine; */
+}
+#main>.text>img{
+    height:100px;
+    width: 200px;
+    margin-left: 30px;
+}
+#main>.text>.img2{
+    height:100px;
+    width: 200px;
+    margin-left: 30px;
+}
+#main>.text>.img3{
+    height:300px;
+    width: 500px;
+    margin-left: 30px;
+}
+#main>.text>.img4{
+    height:100px;
+    width: 200px;
+    margin-left: 30px;
+    margin-bottom: 70px;
+}
+#main>.headphone>.img5{
+   margin-left: 500px;
+   /* background-color: aquamarine; */
+}
+#main>.logos>.logo1{
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    margin-top: 200px;
+}
+#main>.logos>.logo2{
+    height: 30px;
+    width: 30px;
+    align-items: center;
+}
+#main>.logos>.logo3{
+    height: 30px;
+    width: 30px;
+    align-items: center;
+}
+#main>.logos>.logo4{
+    height: 30px;
+    width: 30px;
+    align-items: center;
+}
+#main>.logos>.logo5{
+    height: 90px;
+    width: 90px;
+    align-items: center;
+    margin-left: -30px;
+}
+#last{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    /* display: flex; */
+}
+
+#last>.last2{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c1{
+    margin-left: 600px;
+    /* background-color: aqua; */
+    font-size: 80px;
+    margin-top: 80px;
+}
+.c2{
+    margin-left: 300px;
+    margin-top: 40px;
+}
+#last>.details{
+    display: flex;
+    align-items: center;
+}
+.name{
+    margin-left: 310px;
+    margin-top: 40px;
+}
+.email{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+input{
+    margin-top: 40px;
+    text-decoration: line-through;
+    text-decoration: none;
+}
+.subject{
+    margin-left: 310px;
+
+}
+.how{
+    margin-left: 310px;
+
+}
+.submit{
+    margin-left: 610px;
+    margin-top: 50px;
+    border: 2px solid white;
+}
+.footer{
+    display: flex;
+}
+.footer>.fe>.footer1{
+    background-color: yellow;
+}
